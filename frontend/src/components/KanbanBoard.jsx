@@ -123,7 +123,7 @@ export default function KanbanBoard() {
         sx={{ justifyContent: "space-between", alignItems: "center", mb: 4 }}
       >
         <Typography variant="h4" sx={{ fontWeight: "bold", color: "#1a365d" }}>
-          Meu Kanban
+          Mini Kanban
         </Typography>
         <Button
           variant="contained"
@@ -142,7 +142,7 @@ export default function KanbanBoard() {
                 backgroundColor: col.color,
                 p: 2,
                 borderRadius: 2,
-                minHeight: "70vh",
+                minHeight: "40vh",
                 border: "1px solid #e2e8f0",
               }}
             >
