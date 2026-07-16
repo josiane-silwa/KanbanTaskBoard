@@ -1,5 +1,5 @@
 ## Mini Kanban
-<img width="922" height="396" alt="CapaKanbanTaskBoard" src="https://github.com/user-attachments/assets/6df04610-b32d-41ea-be61-6c6c4d204e40" />
+<img width="1366" height="550" alt="baner_minikanban" src="https://github.com/user-attachments/assets/57977092-a512-4032-b1c3-bd34926669a1" />
 
 Projeto de densenvolvimento pessoal para demonstrar a integração do frontend com o backend.
 
@@ -10,7 +10,7 @@ Projeto simples que implementa uma aplicação fullsatck, com API Restfull desen
 ### 🛠️ Tecnologias Utilizadas
 <div align="left">
     
-[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js,react,mui,python,postgres,django
+[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,js,react,mui,python,sqlite,django
 )](https://skillicons.dev) <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/djangorest/wordmark.svg" width="60px" height="60px"/>
   
   </div>
