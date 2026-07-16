@@ -1,6 +1,8 @@
 # build.sh
 echo "Starting build script"
 
+set -o errexit
+
 pip install -r requirements.txt
 
 # make migrations
