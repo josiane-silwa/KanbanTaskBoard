@@ -29,7 +29,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = []
 # ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1'] 
-ALLOWED_HOSTS = ['kanbantaskboard.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['kanbantaskboard.onrender.com', 'localhost', '127.0.0.1:8000']
 
 # Application definition
 INSTALLED_APPS = [
