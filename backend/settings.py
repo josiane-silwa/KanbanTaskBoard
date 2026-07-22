@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-j^_1k7=^ms(49y2ac5&&c%ot7k_!b5tv13%2q-183umol*7x9x
 DEBUG = True
 # DEBUG = False
 
-ALLOWED_HOSTS = ['kanbantaskboard.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['kanbantaskboard.onrender.com/api/api/"', '127.0.0.1']
 # ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1'] 
 # ALLOWED_HOSTS = ['kanbantaskboard.onrender.com', 'localhost', '127.0.0.1:8000']
 
