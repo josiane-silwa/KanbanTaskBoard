@@ -22,7 +22,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://kanbantaskboard-frontend.onrender.com/",
+    "https://kanbantaskboard.onrender.com",
 ]
 
 STORAGES = {
