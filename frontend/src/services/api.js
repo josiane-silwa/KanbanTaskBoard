@@ -1,7 +1,7 @@
 //import axios from 'axios'
 import ApiAxios from "./ApiAxios";
 
-export const getTasks = () => ApiAxios.get(`/`);
+export const getTasks = () => ApiAxios.get(``);
 
 export const createTasks = ( formData ) => ApiAxios.post(`/`, formData);
 console.log('passei pela api post')
