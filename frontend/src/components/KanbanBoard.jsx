@@ -1,13 +1,9 @@
 // src/components/KanbanBoard.jsx
-// import Container from '@mui/material/Container';
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-// import { CardActions } from "@mui/material";
-// import CardHeader from '@mui/material/CardHeader';
 import Typography from "@mui/material/Typography";
-// import IconButton from '@mui/material/IconButton';
 import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
 import Button from "@mui/material/Button";
@@ -17,9 +13,7 @@ import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
 import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
 import { useCallback, useEffect, useState } from "react";
 import { getTasks, deleteTasks, updateTasks } from "../services/api";
-// import axios from "axios";
 import AddTaskDialog from "./AddTaskDialog";
-// import { blue } from "@mui/material/colors";
 
 const COLUMNS = [
   { id: "TODO", title: "A Fazer", color: "#f7fafc" },

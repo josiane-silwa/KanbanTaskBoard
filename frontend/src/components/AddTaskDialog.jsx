@@ -1,8 +1,6 @@
-// src/components/AddTaskDialog.jsx
 import { useState } from 'react';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField, MenuItem, Stack } from '@mui/material';
 import { createTasks } from '../services/api'
-// import axios from 'axios';
 
 export default function AddTaskDialog({ open, handleClose, onTaskAdded }) {
   const [formData, setFormData] = useState({ title: '', description: '', priority: 'MEDIUM', status: 'TODO' });
