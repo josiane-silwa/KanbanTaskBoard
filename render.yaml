@@ -1,0 +1,7 @@
+services:
+  # Site Estático (Frontend)
+  - type: static
+    name: kanban-frontend
+    rootDir: frontend
+    buildCommand: npm run build
+    staticPublishPath: dist
