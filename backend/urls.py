@@ -19,11 +19,11 @@ from django.urls import path, include
 from django.http import JsonResponse
 
 # Função simples para responder na raiz (/)
-def home(request):
-    return JsonResponse({"message": "API Kanban TaskBoard em execução!"})
+# def home(request):
+#     return JsonResponse({"message": "API Kanban TaskBoard em execução!"})
 
 urlpatterns = [
-    path('', home),  # Adiciona essa linha para a raiz responder 200 OK
+    path('',  include('api.urls')),  # Adiciona essa linha para a raiz responder 200 OK
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')), # Prefixo de todas as rotas da API
 ]
