@@ -114,8 +114,11 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Libera o acesso para o servidor padrão do Vite (Front-end)
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:5173",
+# ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    "https://kanbantaskboard-frontend.onrender.com",
 ]
 
 # Internationalization
